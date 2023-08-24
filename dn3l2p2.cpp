@@ -16,5 +16,7 @@ int main ()
  
 	Operate d1;  
 	d1.display();  
+
+	cout<<"daksh nanera 08";
 	return 0;  
 }  
