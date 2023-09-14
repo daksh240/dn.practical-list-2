@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+void swap(int *a, int *b)
+{
+	int swap;
+	swap=*a;
+	*a=*b;
+	*b=swap;
+}
+int main()
+{
+	int a,b;
+	
+	cout<<"enter a value of a ::";
+	cin>>a;
+	
+	cout<<"Enter a value of b ::";
+	cin>>b;
+	
+	swap(&a,&b);
+	
+	cout<<"The value of a is :: "<<a<<endl;
+	cout<<"The value of b is :: "<<b<<endl;
+	
+	cout<<"daksh nanera 08"<<endl;
+	return 0;
+}
