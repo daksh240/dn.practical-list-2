@@ -12,7 +12,6 @@ int main()
 	cin>>r;
 	cout<<"cube of the number :: "<<cube(r)<<endl<<endl;
 	
-	cout<<"Student Name  :: Dholariya Ayush Prafulbhai"<<endl;
-    cout<<"Enrollment no :: 220130318022";
+cout<<"daksh nanera 08"<<endl;
 	return 0;
 }
